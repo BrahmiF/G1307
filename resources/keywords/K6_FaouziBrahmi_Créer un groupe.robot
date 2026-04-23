@@ -3,6 +3,7 @@ Library     SeleniumLibrary
 Resource    variables.robot
 
 *** Keywords ***
+#mon projet
 Ouvrir navigateur et se connecter
     Open Browser    ${URL}    ${BROWSER}
     Maximize Browser Window
